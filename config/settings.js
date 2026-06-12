@@ -14,7 +14,7 @@ window.SETTINGS = {
     recipientAddress: "glenje@outlook.com",
     emailJS: {
       publicKey:  "QVrOiqzRWK-Om0Hza",
-      serviceId:  "YOUR_EMAILJS_SERVICE_ID",
+      serviceId:  "service_sfbsv92",
       templateId: "template_3xsm30b"
     }
   },
