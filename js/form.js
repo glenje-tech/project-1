@@ -45,8 +45,11 @@ async function loadConfig() {
 function renderForm() {
   // Header
   const logo = document.getElementById('company-logo');
-  logo.src = settings.logoUrl || '';
   logo.alt = settings.companyName || 'Company Logo';
+  if (settings.logoUrl) {
+    logo.src = settings.logoUrl;
+    logo.style.display = '';
+  }
   document.getElementById('form-title').textContent = settings.formTitle || 'Health Check';
   document.getElementById('form-subtitle').textContent = settings.formSubtitle || '';
   document.title = `${settings.formTitle} – ${settings.companyName}`;
