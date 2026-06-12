@@ -14,7 +14,7 @@ window.QUESTIONS = {
           "id": "engineer_name",
           "type": "select",
           "label": "Engineer Name",
-          "required": true,
+          "required": false,
           "options": [
             "James Carter",
             "Ryan Booth",
@@ -28,13 +28,13 @@ window.QUESTIONS = {
           "id": "visit_date",
           "type": "date",
           "label": "Date of Visit",
-          "required": true
+          "required": false
         },
         {
           "id": "visit_type",
           "type": "select",
           "label": "Type of Visit",
-          "required": true,
+          "required": false,
           "options": [
             "Planned Maintenance",
             "Reactive Callout",
@@ -47,14 +47,14 @@ window.QUESTIONS = {
           "id": "customer_name",
           "type": "text",
           "label": "Customer Name",
-          "required": true,
+          "required": false,
           "placeholder": "e.g. Mr & Mrs Johnson"
         },
         {
           "id": "site_address",
           "type": "textarea",
           "label": "Site Address",
-          "required": true,
+          "required": false,
           "placeholder": "Full address including postcode"
         },
         {
@@ -88,7 +88,7 @@ window.QUESTIONS = {
           "id": "equipment_make",
           "type": "select",
           "label": "Make / Manufacturer",
-          "required": true,
+          "required": false,
           "options": [
             "Daikin",
             "Mitsubishi Electric",
@@ -107,14 +107,14 @@ window.QUESTIONS = {
           "id": "equipment_model",
           "type": "text",
           "label": "Model Number",
-          "required": true,
+          "required": false,
           "placeholder": "e.g. FTXM35R / ATXM35R"
         },
         {
           "id": "equipment_serial",
           "type": "text",
           "label": "Indoor Unit Serial Number",
-          "required": true,
+          "required": false,
           "placeholder": "Found on label inside front panel"
         },
         {
@@ -128,7 +128,7 @@ window.QUESTIONS = {
           "id": "equipment_type",
           "type": "select",
           "label": "System Type",
-          "required": true,
+          "required": false,
           "options": [
             "Wall-Mounted Split",
             "Ceiling Cassette",
@@ -144,7 +144,7 @@ window.QUESTIONS = {
           "id": "refrigerant_type",
           "type": "select",
           "label": "Refrigerant Type",
-          "required": true,
+          "required": false,
           "options": [
             "R32",
             "R410A",
@@ -193,14 +193,14 @@ window.QUESTIONS = {
           "id": "safe_to_work",
           "type": "radio",
           "label": "Is it safe to work on this equipment?",
-          "required": true,
+          "required": false,
           "options": ["Yes", "No", "Restricted"]
         },
         {
           "id": "isolator_accessible",
           "type": "radio",
           "label": "Electrical isolator accessible and clearly labelled?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
@@ -215,28 +215,28 @@ window.QUESTIONS = {
           "id": "earth_continuity",
           "type": "radio",
           "label": "Earth continuity satisfactory?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "rcd_protection",
           "type": "radio",
           "label": "RCD / circuit protection present and labelled?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "wiring_condition",
           "type": "radio",
           "label": "All wiring in good condition, no signs of overheating or damage?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "f_gas_registered",
           "type": "radio",
           "label": "Work carried out under F-Gas regulations?",
-          "required": true,
+          "required": false,
           "options": ["Yes", "No", "N/A"]
         },
         {
@@ -256,28 +256,28 @@ window.QUESTIONS = {
           "id": "indoor_unit_clean",
           "type": "radio",
           "label": "Indoor unit casing clean and undamaged?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "indoor_fan_blade",
           "type": "radio",
           "label": "Fan blade / cross-flow fan clean and undamaged?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "indoor_coil_clean",
           "type": "radio",
           "label": "Evaporator coil clean, no fouling or mould?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "filters_condition",
           "type": "radio",
           "label": "Air filters – condition on arrival?",
-          "required": true,
+          "required": false,
           "options": ["Clean", "Slightly dirty", "Very dirty", "Damaged", "N/A"]
         },
         {
@@ -294,28 +294,28 @@ window.QUESTIONS = {
           "id": "drain_tray_clean",
           "type": "radio",
           "label": "Condensate drain tray clean and free of algae?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "drain_flow",
           "type": "radio",
           "label": "Condensate drain flowing freely (no blockage)?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "louvers_working",
           "type": "radio",
           "label": "Auto-swing louvers / vanes operating correctly?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "indoor_noise_vibration",
           "type": "radio",
           "label": "No unusual noise or vibration from indoor unit?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
@@ -351,63 +351,63 @@ window.QUESTIONS = {
           "id": "outdoor_unit_location",
           "type": "radio",
           "label": "Outdoor unit in a well-ventilated, accessible position?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "outdoor_casing",
           "type": "radio",
           "label": "Outdoor unit casing undamaged, no corrosion?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "condenser_coil_clean",
           "type": "radio",
           "label": "Condenser coil fins clean and undamaged?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "outdoor_fan_clean",
           "type": "radio",
           "label": "Outdoor fan blade clean and free-spinning?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "pipework_condition",
           "type": "radio",
           "label": "Refrigerant pipework in good condition, no kinks?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "pipe_insulation",
           "type": "radio",
           "label": "Pipe insulation intact, UV-protected where exposed?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "outdoor_brackets",
           "type": "radio",
           "label": "Mounting brackets / fixings secure and undamaged?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "outdoor_clearance",
           "type": "radio",
           "label": "Minimum clearances maintained around outdoor unit?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "outdoor_noise_vibration",
           "type": "radio",
           "label": "No unusual noise or vibration from outdoor unit?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
@@ -427,7 +427,7 @@ window.QUESTIONS = {
           "id": "leak_check_method",
           "type": "select",
           "label": "Leak Check Method Used",
-          "required": true,
+          "required": false,
           "options": [
             "Electronic leak detector",
             "UV dye and lamp",
@@ -440,7 +440,7 @@ window.QUESTIONS = {
           "id": "no_refrigerant_leak",
           "type": "radio",
           "label": "No refrigerant leaks detected?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
@@ -530,14 +530,14 @@ window.QUESTIONS = {
           "id": "current_within_spec",
           "type": "radio",
           "label": "Running current within manufacturer's rated tolerance?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "compressor_starts",
           "type": "radio",
           "label": "Compressor starts and runs smoothly?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
@@ -558,7 +558,7 @@ window.QUESTIONS = {
           "id": "pcb_visual",
           "type": "radio",
           "label": "PCB and electrical components – no signs of burning or damage?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         }
       ]
@@ -571,7 +571,7 @@ window.QUESTIONS = {
           "id": "remote_control_working",
           "type": "radio",
           "label": "Remote control functioning correctly?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
@@ -590,14 +590,14 @@ window.QUESTIONS = {
           "id": "all_modes_tested",
           "type": "radio",
           "label": "Cooling and heating modes tested and operating correctly?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
           "id": "fan_speeds_working",
           "type": "radio",
           "label": "All fan speed settings working?",
-          "required": true,
+          "required": false,
           "options": ["Pass", "Fail", "N/A"]
         },
         {
@@ -674,7 +674,7 @@ window.QUESTIONS = {
           "id": "overall_condition",
           "type": "select",
           "label": "Overall System Condition",
-          "required": true,
+          "required": false,
           "options": [
             "A – Excellent, no issues found",
             "B – Good, minor observations only",
@@ -687,14 +687,14 @@ window.QUESTIONS = {
           "id": "system_left_running",
           "type": "radio",
           "label": "System left running at end of visit?",
-          "required": true,
+          "required": false,
           "options": ["Yes", "No – fault", "No – customer request"]
         },
         {
           "id": "immediate_action",
           "type": "radio",
           "label": "Is a follow-up visit or immediate action required?",
-          "required": true,
+          "required": false,
           "options": ["Yes – urgent", "Yes – routine", "No"]
         },
         {
@@ -734,7 +734,7 @@ window.QUESTIONS = {
           "id": "customer_informed",
           "type": "radio",
           "label": "Customer informed of findings and any recommendations?",
-          "required": true,
+          "required": false,
           "options": ["Yes", "No – vacant property", "Left written note"]
         },
         {
