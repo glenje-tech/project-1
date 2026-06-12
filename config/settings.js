@@ -15,7 +15,7 @@ window.SETTINGS = {
     emailJS: {
       publicKey:  "QVrOiqzRWK-Om0Hza",
       serviceId:  "YOUR_EMAILJS_SERVICE_ID",
-      templateId: "YOUR_EMAILJS_TEMPLATE_ID"
+      templateId: "template_3xsm30b"
     }
   },
 
