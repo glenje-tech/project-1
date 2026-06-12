@@ -11,7 +11,7 @@ window.SETTINGS = {
   logoUrl: "https://domesticair.co.uk/wp-content/uploads/2026/04/DomesticAirLogo-01-1-e1775596352195.webp",
 
   email: {
-    recipientAddress: "info@domesticair.co.uk",
+    recipientAddress: "glenje@outlook.com",
     emailJS: {
       publicKey:  "YOUR_EMAILJS_PUBLIC_KEY",
       serviceId:  "YOUR_EMAILJS_SERVICE_ID",
