@@ -8,7 +8,7 @@ window.SETTINGS = {
   formTitle:    "Equipment Health Check",
   formSubtitle: "Complete all sections for each site visit",
 
-  logoUrl: "https://domesticair.co.uk/wp-content/uploads/2026/04/DomesticAirLogo-01-1-e1775596352195.webp",
+  logoUrl: "images/logo.png",
 
   email: {
     recipientAddress: "glenje@outlook.com",
